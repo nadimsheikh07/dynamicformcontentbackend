@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 use niklasravnsborg\LaravelPdf\Facades\Pdf as LaravelPdf;
 
 class FormController extends Controller
@@ -13,11 +15,23 @@ class FormController extends Controller
      */
     public function index()
     {
-        // return view('form/form1', ['name' => 'Nadim']);
+        return view('form/kirayaForm');
+    }
+
+    public function print(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+        ]);
+        if ($validator->fails()) {
+            return response()->validation($validator->errors(), __('response.errors.validation'));
+        }
+        $input = $request->all();
+
         $data = [
-            'name' => 'Nadim'
+            'name' => $input['name']
         ];
-        $pdf = LaravelPdf::loadView('form/form1', $data);
+        $pdf = LaravelPdf::loadView('pdf/kirayaForm', $data);
         return $pdf->stream('document.pdf');
     }
 }

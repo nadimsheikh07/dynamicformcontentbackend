@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('index', [FormController::class, 'index']);
+Route::get('kiraya_form', [FormController::class, 'index']);
+Route::post('print_kiraya', [FormController::class, 'print']);
