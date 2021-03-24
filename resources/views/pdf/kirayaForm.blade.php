@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: 'examplefont','examplefont2', sans-serif;
+            font-family: 'examplefont', sans-serif;
         }
     </style>
     <title>Document</title>
@@ -16,8 +16,8 @@
 </head>
 
 <body>
-    <h2>AA fdjk;k fpV~Bh AA</h2>    
-    ;g fdjk;k fpB~Bh vkt fnukad ------------------------------- dks 'kgj mn;iqj esa fuEu i{kdkjks ds e/; fu"ikfnr dh tk jgh gS%&
+    <h2>AA fdjk;k fpV~Bh AA</h2>
+    ;g fdjk;k fpB~Bh vkt fnukad ---------{{ $name }}---------------------- dks 'kgj mn;iqj esa fuEu i{kdkjks ds e/; fu"ikfnr dh tk jgh gS%&
     fdjk;snkj%& Jh ---------------------------------------- firk Jh ----------------------------------------------] mez ckfyx] fuoklh ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ------------------------izFke i{kdkj
     edku ekfyd%& Jh -------------------------------------- firk Jh ------------------------------------------------] mez ckfyx] fuoklh ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
