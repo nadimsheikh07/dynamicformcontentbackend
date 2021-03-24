@@ -14,9 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('kiraya_form', [FormController::class, 'index']);
+Route::get('/', [FormController::class, 'index']);
 Route::post('print_kiraya', [FormController::class, 'print']);
