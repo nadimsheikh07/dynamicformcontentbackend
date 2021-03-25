@@ -29,7 +29,8 @@ class FormController extends Controller
         $input = $request->all();
 
         $data = [
-            'name' => $input['name']
+            'name' => $input['name'],
+            'fathername' => $input['fathername'],
         ];
         $pdf = LaravelPdf::loadView('pdf/kirayaForm', $data);
         return $pdf->stream('document.pdf');
