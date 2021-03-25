@@ -1,8 +1,18 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+@font-face {
+    font-family: 'HindiFont';
+    font-size  : large;
+    src        : url('../fonts/KrutiDev010.ttf') format('truetype');
+
+}
+
+
+.hindiFont {
+    font-family: 'HindiFont';
+}

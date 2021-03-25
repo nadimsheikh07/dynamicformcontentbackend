@@ -18,8 +18,8 @@ return [
     'font_path' => base_path('resources/fonts/'),
     'font_data' => [
         'examplefont' => [
-            // 'R' => 'KrutiDev010.ttf',
-            'R' => 'Hind-Regular.ttf',
+            'R' => 'KrutiDev010.ttf',
+            // 'R' => 'Hind-Regular.ttf',
             // 'useOTL' => 0xFF,    // required for complicated langs like Persian, Arabic and Chinese
             // 'useKashida' => 75,  // required for complicated langs like Persian, Arabic and Chinese
         ],        
