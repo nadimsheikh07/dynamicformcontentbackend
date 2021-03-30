@@ -19,10 +19,8 @@
 
 <body>
     @include('includes.header')
-    <div class="container">
-        <header class="row">
-        </header>
-        <div id="main" class="row">
+    <div class="container">        
+        <div id="main">
             @yield('content')
         </div>
     </div>    

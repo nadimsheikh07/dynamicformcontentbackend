@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validator;
 use niklasravnsborg\LaravelPdf\Facades\Pdf as LaravelPdf;
 
@@ -22,17 +23,20 @@ class FormController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required',
+            'fathername' => 'required',
         ]);
-        if ($validator->fails()) {
-            return response()->validation($validator->errors(), __('response.errors.validation'));
-        }
-        $input = $request->all();
+        if ($validator->fails()) {            
+            return Redirect::to('/')->withErrors($validator)->withInput();
+        }else{
 
-        $data = [
-            'name' => $input['name'],
-            'fathername' => $input['fathername'],
-        ];
-        $pdf = LaravelPdf::loadView('pdf/kirayaForm', $data);
-        return $pdf->stream('document.pdf');
+            $input = $request->all();
+    
+            $data = [
+                'name' => $input['name'],
+                'fathername' => $input['fathername'],
+            ];
+            $pdf = LaravelPdf::loadView('pdf/kirayaForm', $data);
+            return $pdf->stream('document.pdf');
+        }
     }
 }
