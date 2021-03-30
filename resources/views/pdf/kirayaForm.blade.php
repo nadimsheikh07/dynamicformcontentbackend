@@ -17,32 +17,77 @@
 
 <body>
     <h2 style="text-align:center">AA fdjk;k fpV~Bh AA</h2>
-    <p>;g fdjk;k fpB~Bh vkt fnukad ------------------------------- dks 'kgj mn;iqj esa fuEu i{kdkjks ds e/; fu"ikfnr dh tk jgh gS%&</p>
-    <p>fdjk;snkj%& Jh -----{{ $name }}----- firk Jh -----{{ $fathername }}-----] mez ckfyx] fuoklh ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-    ------------------------izFke i{kdkj
-    edku ekfyd%& Jh -------------------------------------- firk Jh ------------------------------------------------] mez ckfyx] fuoklh ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ----------------------f}rh; i{kdkj
+    <p>;g fdjk;k fpB~Bh vkt fnukad -----{{ $date }}----- dks 'kgj mn;iqj esa fuEu i{kdkjks ds e/; fu"ikfnr dh tk jgh gS%& fdjk;snkj%& Jh -----{{ $firstPartyName }}----- firk Jh -----{{ $firstPartyFname }}-----] mez ckfyx] fuoklh -----{{ $firstPartyAddress }}----- izFke i{kdkj edku ekfyd%& Jh -----{{ $secondPartyName }}----- firk Jh -----{{ $firstPartyFname }}-----] mez ckfyx] fuoklh -----{{ $secondPartyAddress }}----- f}rh; i{kdkj </p>
 
-    <p>;g fd eq> izFke i{kdkj us vkidh edku@¶ysV@nqdku@xksnke@vkWfQl@tehu tks okds ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mn;iqj eas fLFkr gksdj fdjk;s ij fy;k gSa ftldk fdjk;k izfrekg ------------------------------------@& v{kjsa --------------------------------------------- :Ik;k r; fd;k x;k gSA mDr fdjk;k vki f}rh; i{kdkj dks izfrekg dh -------------------------------------- rkjh[k dks ns; gksxkA</p>
+    <p>;g fd eq> izFke i{kdkj us vkidh edku@¶ysV@nqdku@xksnke@vkWfQl@tehu tks okds ------{{ $kirayaAddress }}----- mn;iqj eas fLFkr gksdj fdjk;s ij fy;k gSa ftldk fdjk;k izfrekg ----{{ $kirayaNumber }}----- @& v{kjsa -----{{ $kirayaCharacter }}----- :Ik;k r; fd;k x;k gSA mDr fdjk;k vki f}rh; i{kdkj dks izfrekg dh -----{{ $kirayaDate }}----- rkjh[k dks ns; gksxkA</p>
     <p>;g fd mDr fdjk;k ifjlj esa fctyh o ikuh dh O;oLFkk gS ftldk fcy izFke i{kdkj Lo;a ds miHkksx vuqlkj Lo;a vnk djsxkA</p>
-    <p>;g fd mDr fdjk;k ifjlj dks x;kjg 11 ekg fd vof/k ds fy, fdjk;k ij fy;k x;k gS fdjk;k vof/k fnukad ----------------------------- ls izkjEHk gksdj 11 ekg rd ds fy, oS| gS tks vof/k lekfIr ij [kkyh dj dCtk vki f}rh; i{kdkj dks iqu% fliqnZ dj fn;k tkosxkA fdjk;k vof/k lekfIr ij nksuksa i{kdkjksa dh lgefr ls fdjk;k vof/k vkxs c<+kbZ tk ldsxhA ;g fd izFke i{kdkj fdjk;k ifjlj dkss dsoy vius fuokl gsrq gh mi;ksx esa ysxk fdlh dks mifdjk;snkjh ij ugha nsxk u gh fdlh dks fdlh Hkh izdkj ls gLrkUrj.k djsxkA ;g fd fdjk;k ifjlj esa eq> izFke i{kdkj }kjk fdlh Hkh rjg dk U;wlsal iSnk ugh fd;k tkosxkA rFkk fdlh Hkh rjg dk voS/k d`R; ugha fd;k tkosxk vkSj u gh fdjk;k ifjlj esa fdlh izdkj dk dksbZ xSj dkuwuh dk;Z djsxkA</p>
+    <p>;g fd mDr fdjk;k ifjlj dks x;kjg {{ $kirayaDuration }} ekg fd vof/k ds fy, fdjk;k ij fy;k x;k gS fdjk;k vof/k fnukad -----{{ $kirayaPayDate }}----- ls izkjEHk gksdj {{ $kirayaDuration }} ekg rd ds fy, oS| gS tks vof/k lekfIr ij [kkyh dj dCtk vki f}rh; i{kdkj dks iqu% fliqnZ dj fn;k tkosxkA fdjk;k vof/k lekfIr ij nksuksa i{kdkjksa dh lgefr ls fdjk;k vof/k vkxs c<+kbZ tk ldsxhA ;g fd izFke i{kdkj fdjk;k ifjlj dkss dsoy vius fuokl gsrq gh mi;ksx esa ysxk fdlh dks mifdjk;snkjh ij ugha nsxk u gh fdlh dks fdlh Hkh izdkj ls gLrkUrj.k djsxkA ;g fd fdjk;k ifjlj esa eq> izFke i{kdkj }kjk fdlh Hkh rjg dk U;wlsal iSnk ugh fd;k tkosxkA rFkk fdlh Hkh rjg dk voS/k d`R; ugha fd;k tkosxk vkSj u gh fdjk;k ifjlj esa fdlh izdkj dk dksbZ xSj dkuwuh dk;Z djsxkA</p>
     <p>;g fd fdjk;k ifjlj dks lkQ LoPN j[kk tkosxk rFkk rksM QksM ugh fd tkosxh rFkk ugh fdlh Hkh rjg dh ykxr gh yxk;h tkosxhA</p>
     <p>;g fd izFke i{kdkj us mDr fdjk;k ifjlj ftl gkyr esa izkIr fd;k gS mlh gkyr esa fdjk;k vof/k lekfIr ij f}rh; i{kdkj dks lqiqnZ djsxkA</p>
     <p>;g fd nksuks i{kdkj dks vxj fdjk;k ifjlj dks [kkyh djuk o djokuk pkgs rks nksuks i{kdkj ,d nwljs dks ,d ekg iwoZ lwfpr dj fdjk;k ifjlj [kkyh djok ;k [kkyh dj ldrs gSA</p>
 
     <p>vr% ;g fdjk;k fpV~Bh eq> izFke i{kdkj us vki f}rh; i{kdkj ds i{k esa iw.kZ gks’k gokl esa fcxj Mj ncko Hk; ls fu"ikfnr dj nh tks lun jgsa oDr t:jr dke vkosaA</p>
 
-    <p>LFkku %& mn;iqj</p>
-    <p>fnukad %& -------------------------------- gLrk{kj fdjk;snkj ¼izFke i{kdkj½</p>
+    <table style="margin-top: 100px;">
+        <tr>
+            <td style="text-align:left">
+                LFkku %& mn;iqj
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td style="text-align:right">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                fnukad %& -------------------------------- gLrk{kj fdjk;snkj ¼izFke i{kdkj½
+            </td>
+        </tr>
+    </table>
 
-    <p>gLrk{kj f}rh; i{kdkj ¼ edku@¶ysV@nqdku@xksnke@vkWfQl@tehu ekfyd½</p>
 
-    <p>xokg 1 -----------------------------------------------------------xokg 2 -------------------------------------------------</p>
 
-    <p>LFkku %& mn;iqj</p>
-    <p>fnukad %& --------------------------------</p>
+    <p>gLrk{kj f}rh; i{kdkj </p>
+    <p>¼ edku@¶ysV@nqdku@xksnke@vkWfQl@tehu ekfyd ½</p>
 
-    <p>gLrk{kj fdjk;snkj ¼izFke i{kdkj½</p>
+    <table style="margin-top: 100px;">
+        <tr>
+            <td style="text-align:left">
+                xokg 1 -----------------------------------------------------------
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td style="text-align:right">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                xokg 2 -----------------------------------------------------------
+            </td>
+        </tr>
+    </table>
+
+
+    <table style="margin-top: 100px;">
+        <tr>
+            <td style="text-align:left">
+                LFkku %& mn;iqj
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td style="text-align:right">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                fnukad %& -------------------------------- gLrk{kj fdjk;snkj ¼izFke i{kdkj½
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
 
 
     <p>gLrk{kj f}rh; i{kdkj </p>

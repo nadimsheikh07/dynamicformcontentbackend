@@ -22,20 +22,25 @@ class FormController extends Controller
     public function print(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'name' => 'required',
-            'fathername' => 'required',
+            'date' => 'required',
+            'firstPartyName' => 'required',
+            'firstPartyFname' => 'required',
+            'firstPartyAddress' => 'required',
+            'secondPartyName' => 'required',
+            'secondPartyFname' => 'required',
+            'secondPartyAddress' => 'required',
+            'kirayaAddress' => 'required',
+            'kirayaNumber' => 'required',
+            'kirayaCharacter' => 'required',
+            'kirayaDate' => 'required',
+            'kirayaDuration' => 'required',
+            'kirayaPayDate' => 'required',
         ]);
         if ($validator->fails()) {            
             return Redirect::to('/')->withErrors($validator)->withInput();
         }else{
-
             $input = $request->all();
-    
-            $data = [
-                'name' => $input['name'],
-                'fathername' => $input['fathername'],
-            ];
-            $pdf = LaravelPdf::loadView('pdf/kirayaForm', $data);
+            $pdf = LaravelPdf::loadView('pdf/kirayaForm', $input);
             return $pdf->stream('document.pdf');
         }
     }
