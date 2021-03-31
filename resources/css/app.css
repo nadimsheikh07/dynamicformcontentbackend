@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'HindiFont';
+    font-size  : large;
+    src        : url('../fonts/KrutiDev010.ttf') format('truetype');
+
+}
+
+
+.hindiFont {
+    font-family: 'HindiFont';
+}
