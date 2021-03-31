@@ -10,6 +10,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/">Kiraya Form</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/education_gape_form">Education Gape Form</a>
+            </li>
         </ul>
     </div>
 </nav>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EducationGapeController;
 use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,4 +16,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [FormController::class, 'index']);
+Route::get('education_gape_form', [EducationGapeController::class, 'index']);
 Route::post('print_kiraya', [FormController::class, 'print']);
+Route::post('print_education_gape', [EducationGapeController::class, 'print']);

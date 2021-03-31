@@ -9,11 +9,7 @@ use niklasravnsborg\LaravelPdf\Facades\Pdf as LaravelPdf;
 
 class FormController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    
     public function index()
     {
         return view('form/kirayaForm');
@@ -41,7 +37,7 @@ class FormController extends Controller
         }else{
             $input = $request->all();
             $pdf = LaravelPdf::loadView('pdf/kirayaForm', $input);
-            return $pdf->stream('document.pdf');
+            return $pdf->stream('kirayaForm.pdf');
         }
     }
 }
