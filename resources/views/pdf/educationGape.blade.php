@@ -22,16 +22,41 @@
     </div>
 
 
-    eSa -----{{ $name }}----- iq=@iq=h@iRuh Jh -----{{ $fathername }}----- mez--------o"kZ] fuoklh ------------------------------------------------------------------------------------------------------------------------------------------------------------------------'kiFkiwoZd fuosnu djrk@djrh gqa fd %&
-    eSa 'kiFkiwoZd fuosnu djrk@djrh gwa fd esjs }kjk d{kk@dkslZ -------------------------------------lu~------------------------@----------------------------esa------------------------------------------------------------------------------ ls fd;k FkkA
-    eSa 'kiFkiwoZd fuosnu djrk@djrh gwa fd lu~ ------------------------ls -------------------------------rdesjs }kjk fdlh Hkh ekU;rk izkIr fo’o fo|ky; ,oa egkfo|ky; esa v/;;u ugh fd;k x;k gS vkSj ;g le; esjk -----------------------------------------------------------------------------------------ds vUrxZr O;rhr gqvk ;gh esjs vUrjky dk dkj.k jgk gS ftl ckcr~ 'kiFk i= izLrqr fd;k tk jgk gSaA
-    eSa 'kiFkiwoZd fuosnu djrk@djrh gwa fd vc eSa dkslZ ------------------------------------------------lu~---------------------------@-----------------------------esa izos’k pkgrk@pkgrh gwa@v/;;ujr gwaA
-    LFkku% mn;iqj ¼jkt-½
-    fnukad ---------@-----------@20-------- gLrk{kj
-    AA lR;kiu AA
-    eSa ------------------------------------------------------------ 'kiFkiwoZd lR;kfir djrk@djrh gwa fd mijksDr 'kiFk i= dh dye la[;k 1 ls vUr rd esjs futh Kku ls lgh ,oa lR; gS vkSj blesa dksbZ rF; fNik;k ugh x;k gSA
-    LFkku % mn;iqj ¼jkt-½
-    fnukad % ---------@-----------@20----------- gLrk{kj
+    <p>eSa -----{{ $name }}----- iq=@iq=h@iRuh Jh -----{{ $fathername }}----- mez--------o"kZ] fuoklh -----{{ $address }}----- 'kiFkiwoZd fuosnu djrk@djrh gqa fd %&</p>
+    <p>eSa 'kiFkiwoZd fuosnu djrk@djrh gwa fd esjs }kjk d{kk@dkslZ -----{{ $class }}----- lu~ -----{{ $classYear }}----- esa -----{{ $school }}----- ls fd;k FkkA</p>
+    <p>eSa 'kiFkiwoZd fuosnu djrk@djrh gwa fd lu~ -----{{ $fromYear }}----- ls -----{{ $toYear }}----- rd esjs }kjk fdlh Hkh ekU;rk izkIr fo’o fo|ky; ,oa egkfo|ky; esa v/;;u ugh fd;k x;k gS vkSj ;g le; esjk -----{{ $detail }}----- ds vUrxZr O;rhr gqvk ;gh esjs vUrjky dk dkj.k jgk gS ftl ckcr~ 'kiFk i= izLrqr fd;k tk jgk gSaA</p>
+    <p>eSa 'kiFkiwoZd fuosnu djrk@djrh gwa fd vc eSa dkslZ -----{{ $newSchool }}----- lu~ -----{{ $newSchoolYear }}----- esa izos’k pkgrk@pkgrh gwa@v/;;ujr gwaA</p>
+
+
+    <table style="margin-top: 50px;">
+        <tr>
+            <td style="text-align:left;">
+                <p>LFkku % mn;iqj ¼jkt-½</p>
+            </td>
+            <td style="text-align:right; padding-left:390px">
+                <p>fnukad % ---------@-----------@20----------- gLrk{kj</p>
+            </td>
+        </tr>
+    </table>
+
+
+    <h3 style="text-align:center;">AA lR;kiu AA</h3>
+
+    <p>eSa -----{{ $name }}----- 'kiFkiwoZd lR;kfir djrk@djrh gwa fd mijksDr 'kiFk i= dh dye la[;k 1 ls vUr rd esjs futh Kku ls lgh ,oa lR; gS vkSj blesa dksbZ rF; fNik;k ugh x;k gSA</p>
+
+
+    <table style="margin-top: 50px;">
+        <tr>
+            <td style="text-align:left;">
+                <p>LFkku % mn;iqj ¼jkt-½</p>
+            </td>
+            <td style="text-align:right; padding-left:390px">
+                <p>fnukad % ---------@-----------@20----------- gLrk{kj</p>
+            </td>
+        </tr>
+    </table>
+
+
 
 </body>
 

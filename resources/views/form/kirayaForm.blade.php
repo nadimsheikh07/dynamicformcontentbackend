@@ -75,14 +75,14 @@
             </div>
             <div class="form-group">
                 <label>Second Party Address</label>
-                <input type="text" name="secondPartyAddress" value="{{ old('secondPartyAddress') }}" class="form-control hindiFont {{ $errors->first('secondPartyAddress') ? 'is-invalid' : '' }}">
+                <textarea type="textarea" name="secondPartyAddress" value="{{ old('secondPartyAddress') }}" class="form-control hindiFont {{ $errors->first('secondPartyAddress') ? 'is-invalid' : '' }}"></textarea>
                 <div class="invalid-feedback">
                     {{ $errors->first('secondPartyAddress') }}
                 </div>
             </div>
             <div class="form-group">
                 <label>Kiraya Address</label>
-                <input type="text" name="kirayaAddress" value="{{ old('kirayaAddress') }}" class="form-control hindiFont {{ $errors->first('kirayaAddress') ? 'is-invalid' : '' }}">
+                <textarea type="textarea" name="kirayaAddress" value="{{ old('kirayaAddress') }}" class="form-control hindiFont {{ $errors->first('kirayaAddress') ? 'is-invalid' : '' }}"></textarea>
                 <div class="invalid-feedback">
                     {{ $errors->first('kirayaAddress') }}
                 </div>

@@ -17,13 +17,21 @@ class EducationGapeController extends Controller
     public function print(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'date' => 'required',
-            'name' => 'required',            
-            'fathername' => 'required',            
+            'name' => 'required',
+            'fathername' => 'required',
+            'address' => 'required',
+            'class' => 'required',
+            'classYear' => 'required',
+            'school' => 'required',
+            'fromYear' => 'required',
+            'toYear' => 'required',
+            'detail' => 'required',
+            'newSchool' => 'required',
+            'newSchoolYear' => 'required',
         ]);
-        if ($validator->fails()) {            
+        if ($validator->fails()) {
             return Redirect::to('/education_gape_form')->withErrors($validator)->withInput();
-        }else{
+        } else {
             $input = $request->all();
             $pdf = LaravelPdf::loadView('pdf/educationGape', $input);
             return $pdf->stream('educationGape.pdf');
