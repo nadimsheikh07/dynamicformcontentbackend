@@ -49,4 +49,6 @@ Run the following command to run application.
 ```bash
 php artisan serve
 php artisan serve --env=dev
+
+php -S 127.0.0.1:8200
 ```
