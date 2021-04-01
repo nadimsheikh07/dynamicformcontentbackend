@@ -14,11 +14,11 @@
                 </div>
             </div>
             <div class="form-group">
-                <label><label>{{ __('text.firstPartyName') }}</label>
-                    <input type="text" name="firstPartyName" value="{{ old('firstPartyName') }}" class="form-control hindiFont {{ $errors->first('firstPartyName') ? 'is-invalid' : '' }}">
-                    <div class="invalid-feedback">
-                        {{ $errors->first('firstPartyName') }}
-                    </div>
+                <label>{{ __('text.firstPartyName') }}</label>
+                <input type="text" name="firstPartyName" value="{{ old('firstPartyName') }}" class="form-control hindiFont {{ $errors->first('firstPartyName') ? 'is-invalid' : '' }}">
+                <div class="invalid-feedback">
+                    {{ $errors->first('firstPartyName') }}
+                </div>
             </div>
 
             <div class="form-group">
