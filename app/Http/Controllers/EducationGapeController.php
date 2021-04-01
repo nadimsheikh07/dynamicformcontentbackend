@@ -7,11 +7,11 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validator;
 use niklasravnsborg\LaravelPdf\Facades\Pdf as LaravelPdf;
 
-class EducationGapeController extends Controller
+class EducationGapController extends Controller
 {
     public function index()
     {
-        return view('form/educationGape');
+        return view('form/educationGap');
     }
 
     public function print(Request $request)
@@ -30,11 +30,11 @@ class EducationGapeController extends Controller
             'newSchoolYear' => 'required',
         ]);
         if ($validator->fails()) {
-            return Redirect::to('/education_gape_form')->withErrors($validator)->withInput();
+            return Redirect::to('/education_Gap_form')->withErrors($validator)->withInput();
         } else {
             $input = $request->all();
-            $pdf = LaravelPdf::loadView('pdf/educationGape', $input);
-            return $pdf->stream('educationGape.pdf');
+            $pdf = LaravelPdf::loadView('pdf/educationGap', $input);
+            return $pdf->stream('educationGap.pdf');
         }
     }
 }

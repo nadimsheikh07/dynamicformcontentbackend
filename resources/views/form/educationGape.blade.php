@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 
-<form action="/print_education_gape" method="post" novalidate>
+<form action="/print_education_Gap" method="post" novalidate>
     @csrf
 
     <div class="row">

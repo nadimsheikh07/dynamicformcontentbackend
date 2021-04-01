@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'appTitle' => 'हिंदी डाटा फॉर्म',
+    'rentForm' => 'किराया फॉर्म',
+    'educationGapForm' => 'एजुकेशन गैप फॉर्म',
     'name' => 'नाम',
     'address' => 'पता',
     'fathername' => 'पिता का नाम',

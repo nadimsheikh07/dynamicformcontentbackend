@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'appTitle' => 'Hindi Data Form',
+    'rentForm' => 'Rent Form',
+    'educationGapForm' => 'Education Gap Form',
     'name' => 'Name',
     'address' => 'Address',
     'fathername' => 'Father Name',
@@ -17,13 +20,13 @@ return [
     'firstPartyName' => 'First Party Name',
     'firstPartyFname' => 'First Party Father Name',
     'firstPartyAddress' => 'First Party Address',
-    'rentDate' => 'rent Date',
-    'rentDuration' => 'rent Duration',
-    'rentPayDate' => 'rent Pay Date',
+    'rentDate' => 'Rent Date',
+    'rentDuration' => 'Rent Duration',
+    'rentPayDate' => 'Rent Pay Date',
     'secondPartyName' => 'Second Party Name',
     'secondPartyFname' => 'Second Party Father Name',
     'secondPartyAddress' => 'Second Party Address',
-    'rentAddress' => 'rent Address',
-    'rentNumber' => 'rent Number',
-    'rentCharacter' => 'rent Character',
+    'rentAddress' => 'Rent Address',
+    'rentNumber' => 'Rent Number',
+    'rentCharacter' => 'Rent Character',
 ];

@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\EducationGapeController;
+use App\Http\Controllers\EducationGapController;
 use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
@@ -22,6 +22,6 @@ Route::get('locale/{locale}', function ($locale) {
 });
 
 Route::get('/', [FormController::class, 'index']);
-Route::get('education_gape_form', [EducationGapeController::class, 'index']);
+Route::get('education_Gap_form', [EducationGapController::class, 'index']);
 Route::post('print_rent', [FormController::class, 'print']);
-Route::post('print_education_gape', [EducationGapeController::class, 'print']);
+Route::post('print_education_Gap', [EducationGapController::class, 'print']);
