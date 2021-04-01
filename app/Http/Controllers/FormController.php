@@ -12,7 +12,7 @@ class FormController extends Controller
     
     public function index()
     {
-        return view('form/kirayaForm');
+        return view('form/rentForm');
     }
 
     public function print(Request $request)
@@ -25,19 +25,19 @@ class FormController extends Controller
             'secondPartyName' => 'required',
             'secondPartyFname' => 'required',
             'secondPartyAddress' => 'required',
-            'kirayaAddress' => 'required',
-            'kirayaNumber' => 'required',
-            'kirayaCharacter' => 'required',
-            'kirayaDate' => 'required',
-            'kirayaDuration' => 'required',
-            'kirayaPayDate' => 'required',
+            'rentAddress' => 'required',
+            'rentNumber' => 'required',
+            'rentCharacter' => 'required',
+            'rentDate' => 'required',
+            'rentDuration' => 'required',
+            'rentPayDate' => 'required',
         ]);
         if ($validator->fails()) {            
             return Redirect::to('/')->withErrors($validator)->withInput();
         }else{
             $input = $request->all();
-            $pdf = LaravelPdf::loadView('pdf/kirayaForm', $input);
-            return $pdf->stream('kirayaForm.pdf');
+            $pdf = LaravelPdf::loadView('pdf/rentForm', $input);
+            return $pdf->stream('rentForm.pdf');
         }
     }
 }

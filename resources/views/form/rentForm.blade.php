@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 
-<form action="/print_kiraya" method="post" novalidate>
+<form action="/print_rent" method="post" novalidate>
     @csrf
 
     <div class="row">
@@ -36,24 +36,24 @@
                 </div>
             </div>
             <div class="form-group">
-                <label>{{ __('text.kirayaDate') }}</label>
-                <input type="text" name="kirayaDate" value="{{ old('kirayaDate') }}" class="form-control hindiFont {{ $errors->first('kirayaDate') ? 'is-invalid' : '' }}">
+                <label>{{ __('text.rentDate') }}</label>
+                <input type="text" name="rentDate" value="{{ old('rentDate') }}" class="form-control hindiFont {{ $errors->first('rentDate') ? 'is-invalid' : '' }}">
                 <div class="invalid-feedback">
-                    {{ $errors->first('kirayaDate') }}
+                    {{ $errors->first('rentDate') }}
                 </div>
             </div>
             <div class="form-group">
-                <label>{{ __('text.kirayaDuration') }}</label>
-                <input type="text" name="kirayaDuration" value="{{ old('kirayaDuration') }}" class="form-control hindiFont {{ $errors->first('kirayaDuration') ? 'is-invalid' : '' }}">
+                <label>{{ __('text.rentDuration') }}</label>
+                <input type="text" name="rentDuration" value="{{ old('rentDuration') }}" class="form-control hindiFont {{ $errors->first('rentDuration') ? 'is-invalid' : '' }}">
                 <div class="invalid-feedback">
-                    {{ $errors->first('kirayaDuration') }}
+                    {{ $errors->first('rentDuration') }}
                 </div>
             </div>
             <div class="form-group">
-                <label>{{ __('text.kirayaPayDate') }}</label>
-                <input type="text" name="kirayaPayDate" value="{{ old('kirayaPayDate') }}" class="form-control hindiFont {{ $errors->first('kirayaPayDate') ? 'is-invalid' : '' }}">
+                <label>{{ __('text.rentPayDate') }}</label>
+                <input type="text" name="rentPayDate" value="{{ old('rentPayDate') }}" class="form-control hindiFont {{ $errors->first('rentPayDate') ? 'is-invalid' : '' }}">
                 <div class="invalid-feedback">
-                    {{ $errors->first('kirayaPayDate') }}
+                    {{ $errors->first('rentPayDate') }}
                 </div>
             </div>
         </div>
@@ -81,24 +81,24 @@
                 </div>
             </div>
             <div class="form-group">
-                <label>{{ __('text.kirayaAddress') }}</label>
-                <textarea type="textarea" name="kirayaAddress" value="{{ old('kirayaAddress') }}" class="form-control hindiFont {{ $errors->first('kirayaAddress') ? 'is-invalid' : '' }}">{{ old('kirayaAddress') }}</textarea>
+                <label>{{ __('text.rentAddress') }}</label>
+                <textarea type="textarea" name="rentAddress" value="{{ old('rentAddress') }}" class="form-control hindiFont {{ $errors->first('rentAddress') ? 'is-invalid' : '' }}">{{ old('rentAddress') }}</textarea>
                 <div class="invalid-feedback">
-                    {{ $errors->first('kirayaAddress') }}
+                    {{ $errors->first('rentAddress') }}
                 </div>
             </div>
             <div class="form-group">
-                <label>{{ __('text.kirayaNumber') }}</label>
-                <input type="text" name="kirayaNumber" value="{{ old('kirayaNumber') }}" class="form-control hindiFont {{ $errors->first('kirayaNumber') ? 'is-invalid' : '' }}">
+                <label>{{ __('text.rentNumber') }}</label>
+                <input type="text" name="rentNumber" value="{{ old('rentNumber') }}" class="form-control hindiFont {{ $errors->first('rentNumber') ? 'is-invalid' : '' }}">
                 <div class="invalid-feedback">
-                    {{ $errors->first('kirayaNumber') }}
+                    {{ $errors->first('rentNumber') }}
                 </div>
             </div>
             <div class="form-group">
-                <label>{{ __('text.kirayaCharacter') }}</label>
-                <input type="text" name="kirayaCharacter" value="{{ old('kirayaCharacter') }}" class="form-control hindiFont {{ $errors->first('kirayaCharacter') ? 'is-invalid' : '' }}">
+                <label>{{ __('text.rentCharacter') }}</label>
+                <input type="text" name="rentCharacter" value="{{ old('rentCharacter') }}" class="form-control hindiFont {{ $errors->first('rentCharacter') ? 'is-invalid' : '' }}">
                 <div class="invalid-feedback">
-                    {{ $errors->first('kirayaCharacter') }}
+                    {{ $errors->first('rentCharacter') }}
                 </div>
             </div>
 

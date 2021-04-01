@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">Kiraya Form</a>
+                <a class="nav-link" href="/">rent Form</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/education_gape_form">Education Gape Form</a>
