@@ -36,14 +36,14 @@
             </div>
             <div class="form-group">
                 <label>Address</label>
-                <textarea type="textarea" name="address" value="{{ old('address') }}" class="form-control hindiFont {{ $errors->first('address') ? 'is-invalid' : '' }}"></textarea>
+                <textarea type="textarea" name="address" value="{{ old('address') }}" class="form-control hindiFont {{ $errors->first('address') ? 'is-invalid' : '' }}">{{ old('address') }}</textarea>
                 <div class="invalid-feedback">
                     {{ $errors->first('address') }}
                 </div>
             </div>
             <div class="form-group">
                 <label>Detail</label>
-                <textarea type="textarea" name="detail" value="{{ old('detail') }}" class="form-control hindiFont {{ $errors->first('detail') ? 'is-invalid' : '' }}"></textarea>
+                <textarea type="textarea" name="detail" value="{{ old('detail') }}" class="form-control hindiFont {{ $errors->first('detail') ? 'is-invalid' : '' }}">{{ old('detail') }}</textarea>
                 <div class="invalid-feedback">
                     {{ $errors->first('detail') }}
                 </div>
