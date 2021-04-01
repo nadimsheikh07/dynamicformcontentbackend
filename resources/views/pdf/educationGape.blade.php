@@ -18,7 +18,7 @@
 
 <body>
     <div style="padding-top: 100px;">
-        <h2 style="text-align:center;">v/;;u vUrjky gsrq 'kiFk& i=</h2>
+        <h2 style="text-align:center;">v/;;u vUrjky gsrq 'kiFk&i=</h2>
     </div>
 
 
