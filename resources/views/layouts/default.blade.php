@@ -12,6 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('public/js/app.js') }}" defer></script>
+    <script src="{{ asset('public/js/unicode2Kruti.js') }}" defer></script>
 
     <!-- Styles -->
     <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">

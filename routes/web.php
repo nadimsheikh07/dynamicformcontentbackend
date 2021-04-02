@@ -24,4 +24,4 @@ Route::get('locale/{locale}', function ($locale) {
 Route::get('/', [FormController::class, 'index']);
 Route::get('education_gap_form', [EducationGapController::class, 'index']);
 Route::post('print_rent', [FormController::class, 'print']);
-Route::post('print_education_Gap', [EducationGapController::class, 'print']);
+Route::post('print_education_gap', [EducationGapController::class, 'print']);
