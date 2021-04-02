@@ -25,7 +25,7 @@ return [
     'firstPartyAddress' => 'पहले पार्टी का पता',
     'rentDate' => 'किराया तिथि',
     'rentDuration' => 'किराया अवधि',
-    'rentPayDate' => 'किराया पे तारीख',
+    'rentPayDate' => 'किराया भुगतान की तारीख',
     'secondPartyName' => 'दूसरा पक्ष का नाम',
     'secondPartyFname' => 'दूसरा पक्ष पिता का नाम',
     'secondPartyAddress' => 'दूसरा पक्ष का पता',
