@@ -30,7 +30,7 @@ class EducationGapController extends Controller
             'newSchoolYear' => 'required',
         ]);
         if ($validator->fails()) {
-            return Redirect::to('/education_Gap_form')->withErrors($validator)->withInput();
+            return Redirect::to('/education_gap_form')->withErrors($validator)->withInput();
         } else {
             $input = $request->all();
             $pdf = LaravelPdf::loadView('pdf/educationGap', $input);
