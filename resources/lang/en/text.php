@@ -29,7 +29,7 @@ return [
     'secondPartyName' => 'Second Party Name',
     'secondPartyFname' => 'Second Party Father Name',
     'secondPartyAddress' => 'Second Party Address',
-    'rentAddress' => 'Rent Address',
-    'rentNumber' => 'Rent Number',
-    'rentCharacter' => 'Rent Character',
+    'rentAddress' => 'Address of rent location',
+    'rentNumber' => 'Rent In Number',
+    'rentCharacter' => 'Rent In Letter',
 ];

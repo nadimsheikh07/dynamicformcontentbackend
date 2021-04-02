@@ -24,7 +24,7 @@
 
     <p>;g fd eq> izFke i{kdkj us vkidh edku@¶ysV@nqdku@xksnke@vkWfQl@tehu tks okds ------{{ $rentAddress }}----- mn;iqj eas fLFkr gksdj fdjk;s ij fy;k gSa ftldk fdjk;k izfrekg ----{{ $rentNumber }}----- @& v{kjsa -----{{ $rentCharacter }}----- :Ik;k r; fd;k x;k gSA mDr fdjk;k vki f}rh; i{kdkj dks izfrekg dh -----{{ $rentDate }}----- rkjh[k dks ns; gksxkA</p>
     <p>;g fd mDr fdjk;k ifjlj esa fctyh o ikuh dh O;oLFkk gS ftldk fcy izFke i{kdkj Lo;a ds miHkksx vuqlkj Lo;a vnk djsxkA</p>
-    <p>;g fd mDr fdjk;k ifjlj dks x;kjg {{ $rentDuration }} ekg fd vof/k ds fy, fdjk;k ij fy;k x;k gS fdjk;k vof/k fnukad -----{{ $rentPayDate }}----- ls izkjEHk gksdj {{ $rentDuration }} ekg rd ds fy, oS| gS tks vof/k lekfIr ij [kkyh dj dCtk vki f}rh; i{kdkj dks iqu% fliqnZ dj fn;k tkosxkA </p>
+    <p>;g fd mDr fdjk;k ifjlj dks ----{{ $rentDuration }}----- ekg fd vof/k ds fy, fdjk;k ij fy;k x;k gS fdjk;k vof/k fnukad -----{{ $rentPayDate }}----- ls izkjEHk gksdj {{ $rentDuration }} ekg rd ds fy, oS| gS tks vof/k lekfIr ij [kkyh dj dCtk vki f}rh; i{kdkj dks iqu% fliqnZ dj fn;k tkosxkA </p>
 
     <p>fdjk;k vof/k lekfIr ij nksuksa i{kdkjksa dh lgefr ls fdjk;k vof/k vkxs c<+kbZ tk ldsxhA ;g fd izFke i{kdkj fdjk;k ifjlj dkss dsoy vius fuokl gsrq gh mi;ksx esa ysxk fdlh dks mifdjk;snkjh ij ugha nsxk u gh fdlh dks fdlh Hkh izdkj ls gLrkUrj.k djsxkA </p>
             <p>;g fd fdjk;k ifjlj esa eq> izFke i{kdkj }kjk fdlh Hkh rjg dk U;wlsal iSnk ugh fd;k tkosxkA rFkk fdlh Hkh rjg dk voS/k d`R; ugha fd;k tkosxk vkSj u gh fdjk;k ifjlj esa fdlh izdkj dk dksbZ xSj dkuwuh dk;Z djsxkA</p>
@@ -35,50 +35,49 @@
             <p>vr% ;g fdjk;k fpV~Bh eq> izFke i{kdkj us vki f}rh; i{kdkj ds i{k esa iw.kZ gks’k gokl esa fcxj Mj ncko Hk; ls fu"ikfnr dj nh tks lun jgsa oDr t:jr dke vkosaA</p>
 
 
-            <table style="margin-top: 50px;">
+            <table style="margin-top: 50px;" width="100%">
                 <tr>
-                    <td style="text-align:left;">
+                    <td align="left">
                         <p>LFkku %& mn;iqj</p>
                         <p>gLrk{kj f}rh; i{kdkj </p>
                         <p>¼ edku@¶ysV@nqdku@xksnke@vkWfQl@tehu ekfyd ½</p>
                     </td>
-                    <td style="text-align:right; padding-left:240px">
-                        <p>fnukad %& -------------------------------- gLrk{kj </p>
-                        <p>fdjk;snkj ¼izFke i{kdkj½</p>
+                    <td align="right">
+                        <p>fnukad %& -------------------------------- </p>
+                        <p>gLrk{kj izFke i{kdkj </p>
+                        <p>¼ fdjk;snkj ½</p>
                     </td>
                 </tr>
             </table>
 
 
 
-
-
-            <table style="margin-top: 50px;">
+            <table style="margin-top: 50px;" width="100%">
                 <tr>
-                    <td style="text-align:left">
+                    <td align="left">
                         <p>xokg 1 ----------------------------------------------------</p>
                     </td>
-                    <td style="text-align:right; padding-left:340px">
+                    <td align="right">
                         <p>xokg 2 ----------------------------------------------------</p>
                     </td>
                 </tr>
             </table>
 
 
-            <table style="margin-top: 50px;">
+            <table style="margin-top: 50px;" width="100%">
                 <tr>
-                    <td style="text-align:left;">
+                    <td align="left">
                         <p>LFkku %& mn;iqj</p>
                         <p>gLrk{kj f}rh; i{kdkj </p>
                         <p>¼ edku@¶ysV@nqdku@xksnke@vkWfQl@tehu ekfyd ½</p>
                     </td>
-                    <td style="text-align:right; padding-left:240px">
-                        <p>fnukad %& -------------------------------- gLrk{kj </p>
-                        <p>fdjk;snkj ¼izFke i{kdkj½</p>
+                    <td align="right">
+                        <p>fnukad %& -------------------------------- </p>
+                        <p>gLrk{kj izFke i{kdkj </p>
+                        <p>¼ fdjk;snkj ½</p>
                     </td>
                 </tr>
             </table>
-
 
 </body>
 

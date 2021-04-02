@@ -29,12 +29,12 @@
     <p>eSa 'kiFkiwoZd fuosnu djrk@djrh gwa fd vc eSa dkslZ -----{{ $newSchool }}----- lu~ -----{{ $newSchoolYear }}----- esa izos’k pkgrk@pkgrh gwa@v/;;ujr gwaA</p>
 
 
-    <table style="margin-top: 100px;">
+    <table style="margin-top: 100px;" width="100%">
         <tr>
-            <td style="text-align:left;">
+            <td align="left">
                 <p>LFkku % mn;iqj ¼jkt-½</p>
             </td>
-            <td style="text-align:right; padding-left:390px">
+            <td align="right">
                 <p>fnukad % ---------@-----------@20----------- gLrk{kj</p>
             </td>
         </tr>
@@ -47,12 +47,12 @@
     <p>eSa -----{{ $name }}----- 'kiFkiwoZd lR;kfir djrk@djrh gwa fd mijksDr 'kiFk i= dh dye la[;k 1 ls vUr rd esjs futh Kku ls lgh ,oa lR; gS vkSj blesa dksbZ rF; fNik;k ugh x;k gSA</p>
 
 
-    <table style="margin-top: 100px;">
+    <table style="margin-top: 100px;" width="100%">
         <tr>
-            <td style="text-align:left;">
+            <td align="left">
                 <p>LFkku % mn;iqj ¼jkt-½</p>
             </td>
-            <td style="text-align:right; padding-left:390px">
+            <td align="right">
                 <p>fnukad % ---------@-----------@20----------- gLrk{kj</p>
             </td>
         </tr>
